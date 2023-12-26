@@ -6,4 +6,16 @@
 Last analysis has warnings
     Your code is analyzed as compatible with all Python 3 versions by default. You can get a more precise analysis by setting the exact Python version in your configuration via the parameter "sonar.python.version"
 
-2 
+2 在 SonarCloud 中，"Effort"（工作量）和 "Technical Debt"（技术债务）是与代码质量度量相关的两个重要概念。
+
+Effort（工作量）
+"Effort" 衡量了修复代码中的问题所需的工作量。它表示为人日或人时，即解决代码问题所需的实际工作时间。工作量是通过考虑问题的严重性、复杂性和规模等因素来计算的。较大的问题、较复杂的问题或者问题的数量越多，工作量就越大。
+
+Technical Debt（技术债务）
+"Technical Debt" 是一种度量，用于表示由于在编写代码时采取的一些权宜之计而产生的负担。这可能包括违反最佳实践、引入代码异味、缺少文档或测试等。Technical Debt 通过测量未来可能的维护成本来量化。
+
+区别：
+1 关注点不同： Effort 关注于当前要解决的问题所需的实际工作时间，而 Technical Debt 关注于代码中的设计和实现上的问题，可能会导致将来的维护成本增加。
+2 计算方法不同： Effort 是一个具体的度量，表示实际的工作量，可以直接与时间相关。Technical Debt 则更加抽象，通常是一个综合指标，考虑到代码的整体质量和可维护性。
+
+3 
