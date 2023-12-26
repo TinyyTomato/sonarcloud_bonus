@@ -1,10 +1,12 @@
 # extra work：
-再测试issues：1）orignal中创建好多个issues 2）改变量名 3）delete  
-关注issue_id的变化，还有issues状态的变化（resolution和status），还可以看一下issues的changelog
+1. （完成）再测试issues：1）orignal中创建好多个issues 2）改变量名 3）delete  
+2. 关注issue_id的变化，还有issues状态的变化（resolution和status，其区别见下4），还可以看一下issues的changelog
+
 
 1 Analysis status
 Last analysis has warnings
     Your code is analyzed as compatible with all Python 3 versions by default. You can get a more precise analysis by setting the exact Python version in your configuration via the parameter "sonar.python.version"
+
 
 2 在 SonarCloud 中，"Effort"（工作量）和 "Technical Debt"（技术债务）是与代码质量度量相关的两个重要概念。
 
@@ -17,6 +19,7 @@ Technical Debt（技术债务）
 区别：
 1. 关注点不同： Effort 关注于当前要解决的问题所需的实际工作时间，而 Technical Debt 关注于代码中的设计和实现上的问题，可能会导致将来的维护成本增加。
 2. 计算方法不同： Effort 是一个具体的度量，表示实际的工作量，可以直接与时间相关。Technical Debt 则更加抽象，通常是一个综合指标，考虑到代码的整体质量和可维护性。
+
 
 3 我在test/test.py中创建了如下内容：
 import numpy as np
@@ -35,6 +38,37 @@ def sonarcloud_test4zzy_bonus(t):
 t = 100
 sonarcloud_test4zzy_bonus(t)
 
-但居然没有被检测出来？？？
+这个代码中存在code smell，但居然没有被检测出来？？我不知道是为什么
+但是！！在tags标签中会生成新的内容，比如："redundant"、"suspicious"？？这或许是一个可研究的标记
 
-4
+
+4 resolution和status的区别：
+resolution 字段： 表示问题的解决状态，resolution 更关注问题的解决结果。可能的值包括：
+1) FIXED: 问题已修复。
+2) FALSE-POSITIVE: 问题被标记为误报，不是真正的问题。
+3) WONTFIX: 不打算修复此问题。
+4) REMOVED: 问题被删除。
+
+
+status 字段： 表示问题的当前状态，status 更关注问题的当前状态。可能的值包括：
+1) OPEN: 问题仍然存在，尚未解决。
+2) REOPENED: 问题曾经被解决，但重新打开了。
+3) CLOSED: 问题已解决，并且已关闭。
+4) RESOLVED: 问题已解决，但尚未关闭。
+
+例：一个问题可能已经解决 (resolution: FIXED) ，但尚未关闭 (status: OPEN)；
+           或者已经解决并关闭 (resolution: FIXED, status: CLOSED)。
+
+注意：这两个字段的变化可以是手动的，也可以是自动的，具体取决于组织或项目的设置以及开发人员的偏好。
+在一些情况下，团队可能会选择手动管理问题的解决和状态；
+而在其他情况下（eg：默认规则，即没有手动配置任何测试规则），可以通过自动化工具等实现自动的状态变更。
+
+5 qualifier: FIL == file, TRK == project, DIR == dictionary
+
+6 sonarcloud上可能会存在对该项目历史版本的缓存？所以如果即使我复制了一段没有code smell的代码，将其改成被检测过有code smell的历史版本，也不会自动触发检测？？
+  ———— 可能是合理的，但对于代码重构来说，是天灾
+
+7 关于issues的changelog，需要输入issues的key值才能进行查阅，模板如下：
+https://sonarcloud.io/api/issues/changelog?projects=TinyyTomato_sonarcloud_bonus&issue=AYylFk8jxkCxZiJZVbD4
+
+
