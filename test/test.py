@@ -5,7 +5,7 @@ def sonarcloud_test4zzy(t):
     c = 15
     d = 20
 
-    if c == d:
+    if c != d:
         print("True")
 
 
