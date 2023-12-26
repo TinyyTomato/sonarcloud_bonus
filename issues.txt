@@ -1,0 +1,9 @@
+# extra work：
+再测试issues：1）orignal中创建好多个issues 2）改变量名 3）delete  
+关注issue_id的变化，还有issues状态的变化（resolution和status），还可以看一下issues的changelog
+
+1 Analysis status
+Last analysis has warnings
+    Your code is analyzed as compatible with all Python 3 versions by default. You can get a more precise analysis by setting the exact Python version in your configuration via the parameter "sonar.python.version"
+
+2 
