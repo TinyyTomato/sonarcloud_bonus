@@ -7,8 +7,6 @@ def sonarcloud_test4zzy_bonus(t):
 
     if a != b:
         print("True")
-    else:
-        print("Wrong")
 
 
 t = 100
