@@ -15,7 +15,26 @@ Technical Debt（技术债务）
 "Technical Debt" 是一种度量，用于表示由于在编写代码时采取的一些权宜之计而产生的负担。这可能包括违反最佳实践、引入代码异味、缺少文档或测试等。Technical Debt 通过测量未来可能的维护成本来量化。
 
 区别：
-1 关注点不同： Effort 关注于当前要解决的问题所需的实际工作时间，而 Technical Debt 关注于代码中的设计和实现上的问题，可能会导致将来的维护成本增加。
-2 计算方法不同： Effort 是一个具体的度量，表示实际的工作量，可以直接与时间相关。Technical Debt 则更加抽象，通常是一个综合指标，考虑到代码的整体质量和可维护性。
+1. 关注点不同： Effort 关注于当前要解决的问题所需的实际工作时间，而 Technical Debt 关注于代码中的设计和实现上的问题，可能会导致将来的维护成本增加。
+2. 计算方法不同： Effort 是一个具体的度量，表示实际的工作量，可以直接与时间相关。Technical Debt 则更加抽象，通常是一个综合指标，考虑到代码的整体质量和可维护性。
 
-3 
+3 我在test/test.py中创建了如下内容：
+import numpy as np
+import pandas as pd
+
+def sonarcloud_test4zzy_bonus(t):  
+    a = 5
+    b = 10
+
+    if a != b:
+        print("True")
+    else:
+        print("Wrong")
+
+
+t = 100
+sonarcloud_test4zzy_bonus(t)
+
+但居然没有被检测出来？？？
+
+4
