@@ -1,13 +1,13 @@
 import numpy as np
 import pandas as pd
 
-def sonarcloud_test4zzy_bonus(t):  
-    a = 5
-    b = 10
+def sonarcloud_test4zzy(t):  
+    c = 15
+    d = 20
 
-    if a != b:
+    if c == d:
         print("True")
 
 
-t = 100
-sonarcloud_test4zzy_bonus(t)
+t = 10
+sonarcloud_test4zzy(t)
