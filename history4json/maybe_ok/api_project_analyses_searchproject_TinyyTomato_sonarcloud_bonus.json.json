@@ -1,0 +1,139 @@
+{
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 12
+    },
+    "analyses": [
+        {
+            "key": "AYymPNdWhBJJaztlpxp_",
+            "date": "2023-12-26T14:07:35+0100",
+            "events": [
+                {
+                    "key": "AYymPQKYoYvbYLEXydEY",
+                    "category": "VERSION",
+                    "name": "not provided"
+                }
+            ],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "16d771a99f4d3b19768e5b6b4b7820848ba4d124"
+        },
+        {
+            "key": "AYymO0Oteh6Cjww0ihhI",
+            "date": "2023-12-26T14:05:53+0100",
+            "events": [],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "a5fe47dcebb4452944e7186caef95b9025a985a4"
+        },
+        {
+            "key": "AYyldQiFlEWbX9IKineD",
+            "date": "2023-12-26T10:29:23+0100",
+            "events": [],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "a2ecb09021d16a37a4a577bd6eded46a31c5a187"
+        },
+        {
+            "key": "AYylcADptKHs_SAJfSjn",
+            "date": "2023-12-26T10:23:52+0100",
+            "events": [],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "f9e4ea6b20f18c93494edde0cdb2116ae1a72d40"
+        },
+        {
+            "key": "AYylboXo91VoJeuWCbzs",
+            "date": "2023-12-26T10:22:14+0100",
+            "events": [],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "8ece02f01d1abf2872a2bd077e3f3eeb077173e3"
+        },
+        {
+            "key": "AYylaz5B91VoJeuWCbsw",
+            "date": "2023-12-26T10:18:39+0100",
+            "events": [
+                {
+                    "key": "AYyla2NxrwBuChfusSkz",
+                    "category": "QUALITY_GATE",
+                    "name": "Green (was Red)",
+                    "description": ""
+                }
+            ],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "6d9c6de0c1a976fc74aa8e42fab41e123a517eee"
+        },
+        {
+            "key": "AYylaagqLOnyK6P6VVU6",
+            "date": "2023-12-26T10:16:56+0100",
+            "events": [
+                {
+                    "key": "AYyladDAB3wemQoz4AHl",
+                    "category": "QUALITY_GATE",
+                    "name": "Red (was Green)",
+                    "description": "Reliability Rating on New Code \u003e 1"
+                }
+            ],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "413d718eba40fe40588b090a5e602dab5744dad1"
+        },
+        {
+            "key": "AYylZao0xJ8AWuRmcFTu",
+            "date": "2023-12-26T10:12:34+0100",
+            "events": [],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "d316ce4538ee9d3fac59e79651ec31335546f768"
+        },
+        {
+            "key": "AYylY7oULOnyK6P6VVHv",
+            "date": "2023-12-26T10:10:27+0100",
+            "events": [],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "1d2863d5cb87bc3549c91ada105cd1a98cf87901"
+        },
+        {
+            "key": "AYylG9CS_c8niU1CyoWz",
+            "date": "2023-12-26T08:52:52+0100",
+            "events": [
+                {
+                    "key": "AYylHNb7vIo17mpBvRWD",
+                    "category": "QUALITY_GATE",
+                    "name": "Green (was Red)",
+                    "description": ""
+                }
+            ],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "df7e49190c6987ccb49d8ab76a0ebffe36285edd"
+        },
+        {
+            "key": "AYylFiKuSnmzxAQ8GjiH",
+            "date": "2023-12-26T08:45:42+0100",
+            "events": [
+                {
+                    "key": "AYylFk-XxkCxZiJZVbD5",
+                    "category": "QUALITY_GATE",
+                    "name": "Red",
+                    "description": "Reliability Rating on New Code \u003e 1"
+                }
+            ],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "97bef66c62ba432f5e2f3e826e0ade4662a282b9"
+        },
+        {
+            "key": "4fed0828-fc37-4a9a-b2e8-ee3400d2a487",
+            "date": "2023-12-26T08:34:19+0100",
+            "events": [],
+            "projectVersion": "not provided",
+            "manualNewCodePeriodBaseline": false,
+            "revision": "9d310e81722e46007ce35d65f1f649bf9d87f007"
+        }
+    ]
+}

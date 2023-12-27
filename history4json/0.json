@@ -1,0 +1,120 @@
+{
+    "total": 2,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 2
+    },
+    "effortTotal": 20,
+    "debtTotal": 20,
+    "issues": [
+        {
+            "key": "AYylC-DsYwymr61DFmwu",
+            "rule": "pythonbugs:S2589",
+            "severity": "MAJOR",
+            "component": "TinyyTomato_sonarcloud_bonus:test.py",
+            "project": "TinyyTomato_sonarcloud_bonus",
+            "line": 8,
+            "hash": "fcd33df3029d528c7e0e4a71376304ac",
+            "textRange": {
+                "startLine": 8,
+                "endLine": 8,
+                "startOffset": 7,
+                "endOffset": 13
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this expression which always evaluates to \"true\".",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "TinyyTomato@github",
+            "author": "1872401992@qq.com",
+            "tags": [
+                "cwe",
+                "redundant",
+                "suspicious"
+            ],
+            "creationDate": "2023-12-26T08:33:24+0100",
+            "updateDate": "2023-12-26T08:34:19+0100",
+            "type": "CODE_SMELL",
+            "organization": "tinyytomato",
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "key": "AYylC-DsYwymr61DFmwt",
+            "rule": "pythonbugs:S2589",
+            "severity": "MAJOR",
+            "component": "TinyyTomato_sonarcloud_bonus:test.py",
+            "project": "TinyyTomato_sonarcloud_bonus",
+            "line": 11,
+            "hash": "fdcd5ad1f4a0821c313187171fb11229",
+            "textRange": {
+                "startLine": 11,
+                "endLine": 11,
+                "startOffset": 7,
+                "endOffset": 20
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this expression which always evaluates to \"true\".",
+            "effort": "10min",
+            "debt": "10min",
+            "assignee": "TinyyTomato@github",
+            "author": "1872401992@qq.com",
+            "tags": [
+                "cwe",
+                "redundant",
+                "suspicious"
+            ],
+            "creationDate": "2023-12-26T08:33:24+0100",
+            "updateDate": "2023-12-26T08:34:19+0100",
+            "type": "CODE_SMELL",
+            "organization": "tinyytomato",
+            "cleanCodeAttribute": "LOGICAL",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        }
+    ],
+    "components": [
+        {
+            "organization": "tinyytomato",
+            "key": "TinyyTomato_sonarcloud_bonus:test.py",
+            "uuid": "AYylC98FYwymr61DFmws",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "test.py",
+            "longName": "test.py",
+            "path": "test.py"
+        },
+        {
+            "organization": "tinyytomato",
+            "key": "TinyyTomato_sonarcloud_bonus",
+            "uuid": "AYylC5FR4bT-Tn4kJLUM",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "sonarcloud_bonus",
+            "longName": "sonarcloud_bonus"
+        }
+    ],
+    "organizations": [
+        {
+            "key": "tinyytomato",
+            "name": "TinyyTomato"
+        }
+    ],
+    "facets": []
+}
